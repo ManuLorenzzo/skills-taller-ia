@@ -1,5 +1,7 @@
 # Skills del taller «Pon a la IA a currar por ti»
 
+**Versión visual:** [manulorenzzo.github.io/skills-taller-ia](https://manulorenzzo.github.io/skills-taller-ia/) · enlace corto: [is.gd/kowiikia](https://is.gd/kowiikia)
+
 Cinco skills para Claude que hacen trabajo de oficina por ti: contestar correo, vigilar tu sector, contabilizar gastos, puntear el banco y preparar el trimestre.
 
 Es el material del taller «Del chat al sistema» (KowiikLab, 19 de noviembre de 2026). Está pensado para pymes y autónomos en España, sin conocimientos técnicos.
