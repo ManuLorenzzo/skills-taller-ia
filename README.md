@@ -1,6 +1,6 @@
 # Skills del taller «Pon a la IA a currar por ti»
 
-**Versión visual:** [manulorenzzo.github.io/skills-taller-ia](https://manulorenzzo.github.io/skills-taller-ia/) · enlace corto: [is.gd/kowiikia](https://is.gd/kowiikia)
+**Versión visual:** [manulorenzzo.github.io/skills-taller-ia](https://manulorenzzo.github.io/skills-taller-ia/) · enlace corto: [is.gd/kowiik](https://is.gd/kowiik)
 
 Cinco skills para Claude que hacen trabajo de oficina por ti: contestar correo, vigilar tu sector, contabilizar gastos, puntear el banco y preparar el trimestre.
 
