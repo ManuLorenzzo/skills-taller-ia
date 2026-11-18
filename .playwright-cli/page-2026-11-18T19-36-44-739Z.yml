@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - paragraph [ref=e4]: Kowiik Lab · 19 nov 2026 · Taller de Manu Lorenzo
+      - heading "Pon a la IA a currar por ti." [level=1] [ref=e5]:
+        - text: Pon a la IA
+        - text: a currar por ti.
+      - paragraph [ref=e6]: Las cinco skills del taller para Claude, cómo instalarlas y datos de prueba para repetir las demos en casa.
+      - paragraph [ref=e7]: "Mejor desde el portátil: las skills se instalan en la app de Claude."
+  - generic [ref=e9]:
+    - heading "Antes de empezar, dos interruptores." [level=2] [ref=e10]:
+      - text: Antes de empezar,
+      - text: dos interruptores.
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - generic [ref=e13]: En Claude, abre Ajustes → Capacidades.
+      - listitem [ref=e14]:
+        - generic [ref=e15]: Activa Ejecutar código en la nube y Artefactos con IA integrada.
+    - paragraph [ref=e16]: Las skills funcionan en el plan gratis. Para que algo se haga solo cada lunes (tareas programadas) hace falta un plan de pago.
+  - generic [ref=e18]:
+    - heading "Cómo se instala una skill." [level=2] [ref=e19]:
+      - text: Cómo se instala
+      - text: una skill.
+    - list [ref=e20]:
+      - listitem [ref=e21]:
+        - generic [ref=e22]: Descarga el ZIP de la skill. No hace falta descomprimirlo.
+      - listitem [ref=e23]:
+        - generic [ref=e24]: En Claude, ve a Personalizar → Skills, pulsa + y sube el ZIP.
+      - listitem [ref=e25]:
+        - generic [ref=e26]: "Comprueba que aparece en la lista y está activada. Ya está: no hay que llamarla, Claude la usa cuando toca."
+    - paragraph [ref=e27]: La primera vez te hará unas preguntas (tu empresa, tu estilo, qué vigilar). Si le dejas guardarlo en su memoria, no te lo vuelve a preguntar.
+  - generic [ref=e29]:
+    - heading "Las cinco skills." [level=2] [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Caso 1
+        - heading "Vigilante semanal" [level=3] [ref=e34]
+        - paragraph [ref=e35]: "Cada semana, lo nuevo de tu sector: normativa, ayudas, competencia y noticias. Con fuente y fecha."
+        - paragraph [ref=e36]: «Hazme el resumen semanal de mi sector. Y déjalo programado cada lunes a las 8.»
+        - paragraph [ref=e37]: "Necesita: nada más. Plan de pago para programarlo."
+      - link "Descargar" [ref=e38] [cursor=pointer]:
+        - /url: zips/vigilante-semanal.zip
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]: Caso 2
+        - heading "Responder correo" [level=3] [ref=e42]
+        - paragraph [ref=e43]: Lee tu correo, separa lo que necesita respuesta y te deja borradores con tu estilo. Nunca envía nada.
+        - paragraph [ref=e44]: «Revisa mis correos sin leer y déjame borradores con mi estilo. No envíes nada.»
+        - paragraph [ref=e45]: "Necesita: conector de Gmail u Outlook (en Personalizar → Conectores)."
+      - link "Descargar" [ref=e46] [cursor=pointer]:
+        - /url: zips/responder-correo.zip
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]: Caso 3 · 1 de 3
+        - heading "Contabilizar un gasto" [level=3] [ref=e50]
+        - paragraph [ref=e51]: Lee una factura o un ticket, propone la cuenta contable y, cuando dices «sí», lo registra en Holded.
+        - paragraph [ref=e52]: «Contabiliza esta factura.» (y la adjuntas)
+        - paragraph [ref=e53]: "Necesita: conector de Holded. Sin él, te da el asiento y un Excel."
+      - link "Descargar" [ref=e54] [cursor=pointer]:
+        - /url: zips/contabilizar-gasto.zip
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]: Caso 3 · 2 de 3
+        - heading "Puntear facturas" [level=3] [ref=e58]
+        - paragraph [ref=e59]: Cruza el extracto del banco con tus facturas y te dice cuáles faltan y qué no cuadra.
+        - paragraph [ref=e60]: "«Puntea el banco de octubre: ¿qué facturas me faltan?»"
+        - paragraph [ref=e61]: "Necesita: extracto del banco en CSV o Excel, y Holded (o una exportación)."
+      - link "Descargar" [ref=e62] [cursor=pointer]:
+        - /url: zips/puntear-facturas.zip
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: Caso 3 · 3 de 3
+        - heading "Cerrar el trimestre" [level=3] [ref=e66]
+        - paragraph [ref=e67]: Revisa todo y deja el borrador del IVA y las retenciones para tu gestoría. Al final, un panel para preguntarle a tus números.
+        - paragraph [ref=e68]: «Prepárame el cierre del tercer trimestre.»
+        - paragraph [ref=e69]: "Necesita: extracto del banco y Holded (o exportaciones)."
+      - link "Descargar" [ref=e70] [cursor=pointer]:
+        - /url: zips/cierre-trimestre.zip
+  - generic [ref=e72]:
+    - heading "Conectar Holded." [level=2] [ref=e73]
+    - list [ref=e74]:
+      - listitem [ref=e75]:
+        - generic [ref=e76]: En Claude, Personalizar → Conectores → Añadir conector personalizado.
+      - listitem [ref=e77]:
+        - generic [ref=e78]:
+          - text: "Pega esta dirección:"
+          - code [ref=e79]: https://mcp.holded.com/mcp
+      - listitem [ref=e80]:
+        - generic [ref=e81]: Entra con tu cuenta de Holded. Hace falta un plan con API (desde Basic).
+    - paragraph [ref=e82]: "Cada vez que Claude vaya a escribir en Holded te pedirá permiso. Es lo normal: revisa y acepta."
+  - generic [ref=e84]:
+    - heading "Antes de instalar algo de internet." [level=2] [ref=e85]:
+      - text: Antes de instalar algo
+      - text: de internet.
+    - generic [ref=e86]: "76"
+    - paragraph [ref=e87]:
+      - text: skills maliciosas encontró Snyk entre casi 4.000 públicas, y el 13,4 % tenía fallos graves (
+      - link "febrero de 2026" [ref=e88] [cursor=pointer]:
+        - /url: https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/
+      - text: "). Repasa esto antes:"
+    - list [ref=e89]:
+      - listitem [ref=e90]:
+        - generic [ref=e91]: ¿De dónde viene? Mejor de alguien que conoces o de una fuente oficial.
+      - listitem [ref=e92]:
+        - generic [ref=e93]: Abre el ZIP y lee el SKILL.md. Es texto normal. Si no entiendes qué hace, no la instales.
+      - listitem [ref=e94]:
+        - generic [ref=e95]: ¿Lleva carpetas con programas? Que lo mire alguien técnico.
+      - listitem [ref=e96]:
+        - generic [ref=e97]: ¿Habla de enviar datos a webs o tiene texto raro? Fuera.
+      - listitem [ref=e98]:
+        - generic [ref=e99]: ¿Te pide contraseñas o claves? Fuera.
+      - listitem [ref=e100]:
+        - generic [ref=e101]: Pruébala con datos inventados, nunca con los de tus clientes.
+    - paragraph [ref=e102]:
+      - text: Las cinco skills de aquí son solo texto, sin código.
+      - link "Puedes leerlas" [ref=e103] [cursor=pointer]:
+        - /url: https://github.com/ManuLorenzzo/skills-taller-ia/tree/main/skills
+      - text: .
+  - generic [ref=e105]:
+    - heading "Para practicar en casa." [level=2] [ref=e106]
+    - paragraph [ref=e107]: "Datos inventados de Pawly SL (la empresa de los perros): facturas del tercer trimestre, extracto del banco, tickets y correos de prueba. Con las soluciones, para que compruebes lo que te devuelve Claude."
+    - generic [ref=e108]:
+      - link "Ver los datos de prueba" [ref=e109] [cursor=pointer]:
+        - /url: https://github.com/ManuLorenzzo/skills-taller-ia/tree/main/datos
+      - link "Plugins oficiales de Anthropic" [ref=e110] [cursor=pointer]:
+        - /url: https://github.com/anthropics/knowledge-work-plugins
+    - paragraph [ref=e111]: "Las skills de contabilidad preparan borradores: no sustituyen a tu gestoría ni presentan nada a Hacienda. Con datos de clientes, mejor un plan de empresa."
+  - contentinfo [ref=e112]:
+    - generic [ref=e113]:
+      - text: Hecho por
+      - link "Manu Lorenzo" [ref=e114] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/manu-lorenzo/
+      - text: "para el taller de Kowiik Lab. Licencia MIT: úsalo y adáptalo a tu empresa."
+      - link "Código en GitHub" [ref=e115] [cursor=pointer]:
+        - /url: https://github.com/ManuLorenzzo/skills-taller-ia
+      - text: .

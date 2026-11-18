@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skills del taller · Pon a la IA a currar por ti</title>
+<meta name="description" content="Cinco skills para Claude y datos de prueba del taller de KowiikLab: vigilante semanal, correo, gastos, punteo del banco y cierre del trimestre.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #120f0d;
+    --ink: #f1ece4;
+    --soft: #b9ab9f;
+    --muted: #8c7d73;
+    --line: #2e2622;
+    --accent: #d45a35;
+    --title: 'Space Grotesk', system-ui, sans-serif;
+    --body: 'Inter', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--soft); font: 400 17px/1.6 var(--body); }
+  a { color: var(--ink); text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 72px 0 56px; border-bottom: 1px solid var(--line); }
+  .label { font-size: 12px; letter-spacing: .25em; text-transform: uppercase; color: var(--muted); margin: 0 0 28px; }
+  h1, h2, h3 { font-family: var(--title); color: var(--ink); letter-spacing: -0.03em; margin: 0; }
+  h1 { font-size: clamp(44px, 9vw, 88px); line-height: .98; font-weight: 700; }
+  h2 { font-size: clamp(30px, 5vw, 44px); line-height: 1.05; font-weight: 700; margin-bottom: 20px; }
+  h3 { font-size: 22px; line-height: 1.2; font-weight: 500; letter-spacing: -0.01em; }
+  .hl { color: var(--accent); }
+  .lead { font-size: clamp(18px, 2.4vw, 22px); color: var(--soft); max-width: 640px; margin: 24px 0 0; }
+  .note { font-size: 14px; color: var(--muted); margin-top: 16px; }
+  section { padding: 64px 0; border-bottom: 1px solid var(--line); }
+  p { margin: 0 0 12px; max-width: 680px; }
+
+  .steps { list-style: none; padding: 0; margin: 8px 0 0; counter-reset: s; }
+  .steps li { counter-increment: s; display: grid; grid-template-columns: 48px 1fr; padding: 16px 0; border-top: 1px solid var(--line); }
+  .steps li:last-child { border-bottom: 1px solid var(--line); }
+  .steps li::before { content: counter(s, decimal-leading-zero); font-family: var(--title); color: var(--accent); font-size: 18px; padding-top: 2px; }
+  .steps b { color: var(--ink); font-weight: 500; }
+
+  .skill { display: grid; grid-template-columns: 1fr auto; gap: 8px 32px; align-items: start; padding: 28px 0; border-top: 1px solid var(--line); }
+  .skill:last-of-type { border-bottom: 1px solid var(--line); }
+  .skill .caso { font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .skill p { margin: 8px 0 0; }
+  .skill .pide { font-family: var(--title); color: var(--ink); font-size: 17px; margin-top: 12px; border-left: 2px solid var(--accent); padding-left: 12px; }
+  .skill .necesita { font-size: 14px; color: var(--muted); margin-top: 10px; }
+  .btn { display: inline-block; white-space: nowrap; background: var(--accent); color: #f6f3ee; font: 500 15px var(--title); padding: 12px 18px; border-radius: 8px; text-decoration: none; }
+  .btn:hover { filter: brightness(1.08); }
+  .btn.ghost { background: transparent; border: 1px solid var(--line); color: var(--ink); }
+  .links { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 15px; color: var(--ink); background: #1d1815; padding: 2px 6px; border-radius: 4px; word-break: break-all; }
+  blockquote { margin: 12px 0; padding-left: 14px; border-left: 2px solid var(--accent); font-family: var(--title); color: var(--ink); font-size: 18px; }
+
+  .dato { font-family: var(--title); font-weight: 700; color: var(--accent); font-size: clamp(64px, 12vw, 120px); line-height: .9; letter-spacing: -0.05em; }
+  footer { padding: 40px 0 64px; font-size: 14px; color: var(--muted); }
+
+  @media (max-width: 640px) {
+    body { font-size: 16px; }
+    header { padding: 48px 0 40px; }
+    section { padding: 48px 0; }
+    .skill { grid-template-columns: 1fr; }
+    .skill .btn { justify-self: start; margin-top: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="label">Kowiik Lab · 19 nov 2026 · Taller de Manu Lorenzo</p>
+    <h1>Pon a la IA<br><span class="hl">a currar por ti</span>.</h1>
+    <p class="lead">Las cinco skills del taller para Claude, cómo instalarlas y datos de prueba para repetir las demos en casa.</p>
+    <p class="note">Mejor desde el portátil: las skills se instalan en la app de Claude.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Antes de empezar,<br><span class="hl">dos interruptores</span>.</h2>
+    <ol class="steps">
+      <li><div>En Claude, abre <b>Ajustes → Capacidades</b>.</div></li>
+      <li><div>Activa <b>Ejecutar código en la nube</b> y <b>Artefactos con IA integrada</b>.</div></li>
+    </ol>
+    <p class="note">Las skills funcionan en el plan gratis. Para que algo se haga solo cada lunes (tareas programadas) hace falta un plan de pago.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Cómo se instala<br>una <span class="hl">skill</span>.</h2>
+    <ol class="steps">
+      <li><div>Descarga el ZIP de la skill. No hace falta descomprimirlo.</div></li>
+      <li><div>En Claude, ve a <b>Personalizar → Skills</b>, pulsa <b>+</b> y sube el ZIP.</div></li>
+      <li><div>Comprueba que aparece en la lista y está <b>activada</b>. Ya está: no hay que llamarla, Claude la usa cuando toca.</div></li>
+    </ol>
+    <p class="note">La primera vez te hará unas preguntas (tu empresa, tu estilo, qué vigilar). Si le dejas guardarlo en su memoria, no te lo vuelve a preguntar.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Las cinco <span class="hl">skills</span>.</h2>
+
+    <div class="skill">
+      <div>
+        <div class="caso">Caso 1</div>
+        <h3>Vigilante semanal</h3>
+        <p>Cada semana, lo nuevo de tu sector: normativa, ayudas, competencia y noticias. Con fuente y fecha.</p>
+        <p class="pide">«Hazme el resumen semanal de mi sector. Y déjalo programado cada lunes a las 8.»</p>
+        <p class="necesita">Necesita: nada más. Plan de pago para programarlo.</p>
+      </div>
+      <a class="btn" href="zips/vigilante-semanal.zip" download>Descargar</a>
+    </div>
+
+    <div class="skill">
+      <div>
+        <div class="caso">Caso 2</div>
+        <h3>Responder correo</h3>
+        <p>Lee tu correo, separa lo que necesita respuesta y te deja borradores con tu estilo. Nunca envía nada.</p>
+        <p class="pide">«Revisa mis correos sin leer y déjame borradores con mi estilo. No envíes nada.»</p>
+        <p class="necesita">Necesita: conector de Gmail u Outlook (en Personalizar → Conectores).</p>
+      </div>
+      <a class="btn" href="zips/responder-correo.zip" download>Descargar</a>
+    </div>
+
+    <div class="skill">
+      <div>
+        <div class="caso">Caso 3 · 1 de 3</div>
+        <h3>Contabilizar un gasto</h3>
+        <p>Lee una factura o un ticket, propone la cuenta contable y, cuando dices «sí», lo registra en Holded.</p>
+        <p class="pide">«Contabiliza esta factura.» (y la adjuntas)</p>
+        <p class="necesita">Necesita: conector de Holded. Sin él, te da el asiento y un Excel.</p>
+      </div>
+      <a class="btn" href="zips/contabilizar-gasto.zip" download>Descargar</a>
+    </div>
+
+    <div class="skill">
+      <div>
+        <div class="caso">Caso 3 · 2 de 3</div>
+        <h3>Puntear facturas</h3>
+        <p>Cruza el extracto del banco con tus facturas y te dice cuáles faltan y qué no cuadra.</p>
+        <p class="pide">«Puntea el banco de octubre: ¿qué facturas me faltan?»</p>
+        <p class="necesita">Necesita: extracto del banco en CSV o Excel, y Holded (o una exportación).</p>
+      </div>
+      <a class="btn" href="zips/puntear-facturas.zip" download>Descargar</a>
+    </div>
+
+    <div class="skill">
+      <div>
+        <div class="caso">Caso 3 · 3 de 3</div>
+        <h3>Cerrar el trimestre</h3>
+        <p>Revisa todo y deja el borrador del IVA y las retenciones para tu gestoría. Al final, un panel para preguntarle a tus números.</p>
+        <p class="pide">«Prepárame el cierre del tercer trimestre.»</p>
+        <p class="necesita">Necesita: extracto del banco y Holded (o exportaciones).</p>
+      </div>
+      <a class="btn" href="zips/cierre-trimestre.zip" download>Descargar</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Conectar <span class="hl">Holded</span>.</h2>
+    <ol class="steps">
+      <li><div>En Claude, <b>Personalizar → Conectores → Añadir conector personalizado</b>.</div></li>
+      <li><div>Pega esta dirección: <code>https://mcp.holded.com/mcp</code></div></li>
+      <li><div>Entra con tu cuenta de Holded. Hace falta un plan con API (desde Basic).</div></li>
+    </ol>
+    <p class="note">Cada vez que Claude vaya a escribir en Holded te pedirá permiso. Es lo normal: revisa y acepta.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Antes de instalar algo<br><span class="hl">de internet</span>.</h2>
+    <div class="dato">76</div>
+    <p style="margin-top:16px">skills maliciosas encontró Snyk entre casi 4.000 públicas, y el 13,4 % tenía fallos graves (<a href="https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/">febrero de 2026</a>). Repasa esto antes:</p>
+    <ol class="steps">
+      <li><div><b>¿De dónde viene?</b> Mejor de alguien que conoces o de una fuente oficial.</div></li>
+      <li><div><b>Abre el ZIP y lee el SKILL.md.</b> Es texto normal. Si no entiendes qué hace, no la instales.</div></li>
+      <li><div><b>¿Lleva carpetas con programas?</b> Que lo mire alguien técnico.</div></li>
+      <li><div><b>¿Habla de enviar datos a webs o tiene texto raro?</b> Fuera.</div></li>
+      <li><div><b>¿Te pide contraseñas o claves?</b> Fuera.</div></li>
+      <li><div><b>Pruébala con datos inventados</b>, nunca con los de tus clientes.</div></li>
+    </ol>
+    <p class="note">Las cinco skills de aquí son solo texto, sin código. <a href="https://github.com/ManuLorenzzo/skills-taller-ia/tree/main/skills">Puedes leerlas</a>.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Para practicar <span class="hl">en casa</span>.</h2>
+    <p>Datos inventados de Pawly SL (la empresa de los perros): facturas del tercer trimestre, extracto del banco, tickets y correos de prueba. Con las soluciones, para que compruebes lo que te devuelve Claude.</p>
+    <div class="links" style="margin-top:20px">
+      <a class="btn ghost" href="https://github.com/ManuLorenzzo/skills-taller-ia/tree/main/datos">Ver los datos de prueba</a>
+      <a class="btn ghost" href="https://github.com/anthropics/knowledge-work-plugins">Plugins oficiales de Anthropic</a>
+    </div>
+    <p class="note" style="margin-top:20px">Las skills de contabilidad preparan borradores: no sustituyen a tu gestoría ni presentan nada a Hacienda. Con datos de clientes, mejor un plan de empresa.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Hecho por <a href="https://www.linkedin.com/in/manu-lorenzo/">Manu Lorenzo</a> para el taller de Kowiik Lab. Licencia MIT: úsalo y adáptalo a tu empresa. <a href="https://github.com/ManuLorenzzo/skills-taller-ia">Código en GitHub</a>.
+  </div>
+</footer>
+
+</body>
+</html>
