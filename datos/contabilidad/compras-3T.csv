@@ -1,0 +1,22 @@
+numero,fecha,proveedor,nif,pais,concepto,base,tipo_iva,cuota_iva,regimen_iva,tipo_retencion,retencion,total,cuenta_pgc,fecha_pago
+A-2026-07,2026-07-01,Inmuebles Patraix SL,B67333096,ES,"Alquiler local C/ de les Mascotes 7, julio",900.00,21,189.00,nacional,19,171.00,918.00,621,2026-07-03
+A-2026-08,2026-08-01,Inmuebles Patraix SL,B67333096,ES,"Alquiler local C/ de les Mascotes 7, agosto",900.00,21,189.00,nacional,19,171.00,918.00,621,2026-08-03
+A-2026-09,2026-09-01,Inmuebles Patraix SL,B67333096,ES,"Alquiler local C/ de les Mascotes 7, septiembre",900.00,21,189.00,nacional,19,171.00,918.00,621,2026-09-02
+EN-2026-071,2026-07-01,Elena Navarro Climent (Asesoría Navarro),73958214N,ES,"Asesoría fiscal, contable y laboral, julio",180.00,21,37.80,nacional,15,27.00,190.80,623,2026-07-06
+EN-2026-084,2026-08-01,Elena Navarro Climent (Asesoría Navarro),73958214N,ES,"Asesoría fiscal, contable y laboral, agosto",180.00,21,37.80,nacional,15,27.00,190.80,623,2026-08-05
+EN-2026-097,2026-09-01,Elena Navarro Climent (Asesoría Navarro),73958214N,ES,"Asesoría fiscal, contable y laboral, septiembre",180.00,21,37.80,nacional,15,27.00,190.80,623,2026-09-04
+LS-IE-260703,2026-07-03,Larkfield Software Ltd,IE3874521KH,IE,"Software de reservas y fichas de mascotas, plan Team, julio",59.00,0,0.00,intracomunitaria_isp,0,0.00,59.00,629,2026-07-03
+LS-IE-260903,2026-09-03,Larkfield Software Ltd,IE3874521KH,IE,"Software de reservas y fichas de mascotas, plan Team, septiembre",59.00,0,0.00,intracomunitaria_isp,0,0.00,59.00,629,2026-09-03
+DZT-2026-0702,2026-07-08,Distribuciones Zoológicas Turia SL,B67100461,ES,Pienso y snacks para la tienda online,1240.00,21,260.40,nacional,0,0.00,1500.40,600,2026-07-14
+DZT-2026-0814,2026-08-12,Distribuciones Zoológicas Turia SL,B67100461,ES,Pienso y snacks para la tienda online,865.00,21,181.65,nacional,0,0.00,1046.65,600,2026-08-18
+DZT-2026-0814,2026-08-12,Distribuciones Zoológicas Turia SL,B67100461,ES,Pienso y snacks para la tienda online,865.00,21,181.65,nacional,0,0.00,1046.65,600,
+DZT-2026-0921,2026-09-09,Distribuciones Zoológicas Turia SL,B67100461,ES,"Pienso, snacks y arena para la tienda online",1410.00,21,296.10,nacional,0,0.00,1706.10,600,2026-09-15
+CEM-7741203,2026-07-06,Comercializadora Eléctrica Mediterránea SL,B67266981,ES,"Electricidad local, periodo junio",112.40,21,23.60,nacional,0,0.00,136.00,628,2026-07-10
+CEM-7769851,2026-08-05,Comercializadora Eléctrica Mediterránea SL,B67266981,ES,"Electricidad local, periodo julio",148.20,21,31.12,nacional,0,0.00,179.32,628,2026-08-10
+CEM-7798410,2026-09-05,Comercializadora Eléctrica Mediterránea SL,B67266981,ES,"Electricidad local, periodo agosto",131.75,21,27.67,nacional,0,0.00,159.42,628,2026-09-10
+RC-2026-55120,2026-07-15,Mutua Aseguradora del Turia,V67411371,ES,"Seguro de responsabilidad civil y accidentes de animales en custodia, prima anual",486.30,0,0.00,exenta,0,0.00,486.30,625,2026-07-15
+HCN-26-03318,2026-07-22,Hotel Castellana Norte SL,B67388207,ES,"Alojamiento 2 noches, feria del sector de mascotas en Madrid",196.00,10,19.60,nacional,0,0.00,215.60,629,2026-07-22
+RMF-0219,2026-08-22,Reparaciones Martí Ferrer SL,B67055129,ES,Reparación de la valla del patio de la guardería,380.00,21,79.80,nacional,0,0.00,459.80,622,2026-08-26
+GB-1187,2026-09-05,Gráficas Benimaclet SL,B67499038,ES,Folletos y carteles de la campaña vuelta al cole canina,210.00,21,44.10,nacional,0,0.00,254.10,627,2026-09-08
+EEL-26-08-0412,2026-08-31,Envíos Exprés Levante SL,B67162743,ES,"Envíos de pedidos de la tienda online, agosto",96.40,21,20.24,nacional,0,0.00,116.64,624,2026-09-10
+CAM-2026-311,2026-09-28,Correas y Arneses del Mediterráneo SL,B67220814,ES,"Correas, arneses y collares para la tienda online",318.00,21,66.78,nacional,0,0.00,384.78,600,

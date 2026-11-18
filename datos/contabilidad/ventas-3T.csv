@@ -1,0 +1,13 @@
+numero,fecha,cliente,nif,concepto,base,tipo_iva,cuota_iva,tipo_retencion,retencion,total,cuenta_pgc,fecha_cobro
+2026/031,2026-07-01,Hotel Mascotas Albufera SL,B67299156,"Guardería de perros, bono mensual julio",1850.00,21,388.50,0,0.00,2238.50,705,2026-07-06
+2026/032,2026-07-01,Coworking Ruzafa Hub SL,B67402636,"Paseos para perros de empleados, bono julio",960.00,21,201.60,0,0.00,1161.60,705,2026-07-08
+2026/033,2026-07-01,Apartamentos Turísticos Cabanyal SL,B67455204,"Guardería para perros de huéspedes, bono julio",640.00,21,134.40,0,0.00,774.40,705,2026-07-10
+2026/034,2026-07-15,Clínica Veterinaria Benimaclet SL,B67180547,"Venta de accesorios (arneses, correas y comederos)",420.00,21,88.20,0,0.00,508.20,700,2026-07-24
+2026/035,2026-08-01,Hotel Mascotas Albufera SL,B67299156,"Guardería de perros, bono mensual agosto",2240.00,21,470.40,0,0.00,2710.40,705,2026-08-07
+2026/036,2026-08-01,Coworking Ruzafa Hub SL,B67402636,"Paseos para perros de empleados, bono agosto",480.00,21,100.80,0,0.00,580.80,705,2026-08-05
+2026/037,2026-08-01,Apartamentos Turísticos Cabanyal SL,B67455204,"Guardería para perros de huéspedes, bono agosto",1120.00,21,235.20,0,0.00,1355.20,705,2026-08-11
+2026/038,2026-08-20,Clínica Veterinaria Benimaclet SL,B67180547,Venta de accesorios (camas y transportines),310.50,21,65.21,0,0.00,375.71,700,2026-08-28
+2026/039,2026-09-01,Hotel Mascotas Albufera SL,B67299156,"Guardería de perros, bono mensual septiembre",1620.00,21,340.20,0,0.00,1960.20,705,2026-09-07
+2026/040,2026-09-01,Coworking Ruzafa Hub SL,B67402636,"Paseos para perros de empleados, bono septiembre",1080.00,21,226.80,0,0.00,1306.80,705,2026-09-04
+2026/041,2026-09-01,Apartamentos Turísticos Cabanyal SL,B67455204,"Guardería para perros de huéspedes, bono septiembre",720.00,21,151.20,0,0.00,871.20,705,
+2026/042,2026-09-10,Escuela de Adiestramiento Horta Nord SL,B67028712,Taller de socialización canina (2 sesiones),750.00,21,157.50,0,0.00,907.50,705,2026-09-18
