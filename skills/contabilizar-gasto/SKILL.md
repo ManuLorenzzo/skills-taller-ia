@@ -9,7 +9,7 @@ description: Contabiliza tickets y facturas de gasto de una pyme o autónomo en 
 
 ## Mi empresa (rellénalo una vez)
 
-Antes de preguntar, mira si ya los tienes en tu memoria del usuario. Si no, pregúntalos al empezar y propón guardarlos en tu memoria para no volver a preguntarlos. Quien prefiera, puede escribirlos aquí mismo antes de subir la skill.
+Antes de preguntar, mira si ya los tienes en las instrucciones o ficheros del proyecto, o en tu memoria del usuario. Si están, úsalos sin preguntar. Si no, pregúntalos al empezar y propón guardarlos en tu memoria para no volver a preguntarlos. Quien prefiera, puede escribirlos aquí mismo antes de subir la skill.
 
 - Nombre fiscal y NIF de la empresa o del autónomo.
 - Régimen de IVA: general (por defecto), recargo de equivalencia u otro.

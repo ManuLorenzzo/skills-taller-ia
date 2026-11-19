@@ -9,7 +9,7 @@ description: Lee tu correo, decide qué necesita respuesta y deja borradores con
 
 ## Mi estilo (rellénalo una vez)
 
-Antes de preguntar, mira si ya lo tienes en tu memoria del usuario. Si no, pregúntalo al empezar y propón guardarlo en tu memoria para no volver a preguntarlo. Quien prefiera, puede escribirlo aquí mismo antes de subir la skill. Lo que más ayuda son los ejemplos reales.
+Antes de preguntar, mira si ya lo tienes en las instrucciones o ficheros del proyecto, o en tu memoria del usuario. Si está, úsalo sin preguntar. Si no, pregúntalo al empezar y propón guardarlo en tu memoria para no volver a preguntarlo. Quien prefiera, puede escribirlo aquí mismo antes de subir la skill. Lo que más ayuda son los ejemplos reales.
 
 - **Quién soy y a qué me dedico**: una línea.
 - **Trato**: tú o usted; con quién cambia.

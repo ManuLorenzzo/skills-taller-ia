@@ -9,7 +9,7 @@ description: Resume cada semana lo nuevo de tu sector: normativa, ayudas, compet
 
 ## Lo que vigilo (rellénalo una vez)
 
-Antes de preguntar, mira si ya lo tienes en tu memoria del usuario. Si no, pregúntalo al empezar (máximo cinco preguntas) y propón guardarlo en tu memoria para no volver a preguntarlo. Quien prefiera, puede escribirlo aquí mismo antes de subir la skill.
+Antes de preguntar, mira si ya lo tienes en las instrucciones o ficheros del proyecto, o en tu memoria del usuario. Si está, úsalo sin preguntar. Si no, pregúntalo al empezar (máximo cinco preguntas) y propón guardarlo en tu memoria para no volver a preguntarlo. Quien prefiera, puede escribirlo aquí mismo antes de subir la skill.
 
 - **Mi sector y mi trabajo**: a qué me dedico y para quién.
 - **Dónde estoy**: país, comunidad autónoma y provincia (para normativa y ayudas locales).
@@ -68,7 +68,7 @@ Si el usuario lo quiere como correo, deja un **borrador** (nunca lo envíes). Si
 
 ## Si me lanza una tarea programada
 
-No hagas preguntas: usa lo que haya en «Lo que vigilo» o en tu memoria del usuario y entrega donde diga. Si falta algo importante, apúntalo al final del resumen para que el usuario lo complete.
+No hagas preguntas: usa lo que haya en «Lo que vigilo», en las instrucciones del proyecto o en tu memoria del usuario y entrega donde diga. Si falta algo importante, apúntalo al final del resumen para que el usuario lo complete.
 
 ## Para dejarlo programado
 
