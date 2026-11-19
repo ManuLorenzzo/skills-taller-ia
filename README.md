@@ -24,7 +24,7 @@ Qué plan necesitas:
 
 > Si en tu app los menús se llaman distinto, busca **Skills** dentro de **Personalizar**. En algunas versiones, «Subir una skill» está dentro de «Crear skill».
 
-**La primera vez que la uses, te hará unas preguntas** sobre ti: «Mi empresa», «Mi estilo» o «Lo que vigilo», según la skill. Contesta con calma; cuanto mejor la rellenes, mejor trabaja. Si le dejas guardarlo en su memoria, no te lo vuelve a preguntar.
+**La primera vez que la uses, te hará unas preguntas** sobre ti: «Mi empresa», «Mi estilo» o «Lo que vigilo», según la skill. Contesta con calma; cuanto mejor la rellenes, mejor trabaja. En las de correo y contabilidad, la configuración se guarda dentro de la propia skill: al terminar te da un ZIP personalizado; quita la genérica en **Personalizar > Skills**, sube ese ZIP y no te lo vuelve a preguntar. (La de correo deduce tu estilo de tus correos enviados.)
 
 ## Las cinco skills
 

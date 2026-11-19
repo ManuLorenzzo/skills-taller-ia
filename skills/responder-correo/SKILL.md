@@ -7,18 +7,33 @@ description: Lee tu correo, decide qué necesita respuesta y deja borradores con
 
 Úsala cuando el usuario diga cosas como «revisa mi correo», «déjame borradores», «contesta a este correo», «¿qué tengo pendiente de responder?» o cuando la lance una tarea programada.
 
-## Mi estilo (rellénalo una vez)
+## Mi estilo
 
-Antes de preguntar, mira si ya lo tienes en las instrucciones o ficheros del proyecto, o en tu memoria del usuario. Si está, úsalo sin preguntar. Si no, pregúntalo al empezar y propón guardarlo en tu memoria para no volver a preguntarlo. Quien prefiera, puede escribirlo aquí mismo antes de subir la skill. Lo que más ayuda son los ejemplos reales.
+> **SIN RELLENAR.** Mientras ponga esto, antes de nada sigue «Primera vez: configurarla».
 
-- **Quién soy y a qué me dedico**: una línea.
-- **Trato**: tú o usted; con quién cambia.
-- **Saludo y despedida** que uso.
-- **Firma.**
-- **Longitud**: corto y al grano, o más elaborado.
-- **Frases que digo a menudo** y **cosas que nunca diría**.
-- **Datos de negocio** que puedo usar al responder: horario, plazos habituales, precios o tarifas públicas, a quién derivar cada tema.
-- **Ejemplos**: pega de 3 a 5 respuestas reales tuyas (sin datos de clientes si no quieres).
+- **Quién soy y a qué me dedico**:
+- **Trato** (tú o usted; con quién cambia):
+- **Saludo**:
+- **Despedida**:
+- **Firma**:
+- **Longitud**:
+- **Frases que digo a menudo**:
+- **Cosas que nunca diría**:
+- **Datos de negocio** que puedo usar al responder (horario, plazos habituales, precios o tarifas públicas, a quién derivar cada tema):
+- **Ejemplos de respuestas mías** (3, sin datos de clientes):
+
+## Primera vez: configurarla
+
+Solo si «Mi estilo» pone SIN RELLENAR.
+
+- **Si te ha lanzado una tarea programada**, no preguntes ni configures nada: clasifica y haz el resumen sin borradores, y pon arriba el aviso «Falta configurar la skill responder-correo: ábrela en un chat y te guiará».
+
+1. **Deduce el estilo de sus correos enviados.** Con el conector de correo (Gmail u Outlook), lee los últimos 20 correos de la carpeta de ENVIADOS. Saca de ahí el trato, el saludo, la despedida, la firma, la longitud habitual, las frases típicas y lo que nunca hace, y 3 ejemplos de respuestas reescritos sin nombres, direcciones, teléfonos, importes ni ningún otro dato de clientes. Si no hay conector o hay muy pocos enviados, pide que pegue 3 respuestas suyas.
+2. **Pregunta solo lo que no se deduce**, todo en un mensaje: a qué se dedica (si no ha salido) y los datos públicos del negocio que puedes usar al responder: horario, plazos habituales, precios o tarifas públicas y a quién derivar cada tema.
+3. **Enseña el resultado** con el formato de «Mi estilo» y pide OK. Corrige lo que te diga.
+4. **Devuélvele su skill personalizada como ZIP descargable**: fichero `responder-correo.zip` con la carpeta `responder-correo/` en la raíz y dentro `SKILL.md`. El `SKILL.md` es este mismo palabra por palabra con tres cambios: «Mi estilo» relleno, sin la línea SIN RELLENAR y sin esta sección «Primera vez: configurarla». La cabecera (`name` y `description`) no cambia.
+5. **Explícale en dos líneas cómo cambiarla**: «En Personalizar > Skills, quita la skill responder-correo que tienes y sube este ZIP. A partir de ahí ya no te pregunto tu estilo.»
+6. Después, sigue con lo que te había pedido usando «Mi estilo».
 
 ## Reglas que no se rompen
 
@@ -64,7 +79,7 @@ No hagas preguntas: deja los borradores y el resumen. Lo que no sepas, entre cor
 
 ## Para dejarlo programado
 
-Si el usuario aún no tiene la tarea, ofrécele crearla: «cada día laborable a las 8:00, revisa mi correo y déjame borradores; no envíes nada».
+Si el usuario aún no tiene la tarea, ofrécele crearla: «Cada día laborable a las 8:00, usa la skill responder-correo con mis correos no leídos. No envíes nada nunca.»
 
 ## Respondedor para tu equipo (artefacto)
 

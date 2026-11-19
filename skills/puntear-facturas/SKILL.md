@@ -7,14 +7,36 @@ description: Puntea el extracto del banco contra las facturas de compra y venta 
 
 Úsala cuando el usuario diga cosas como «puntea el banco», «qué facturas me faltan», «concilia el extracto», «cuadra el banco con Holded» o «qué cobros no tienen factura». También la usa la skill `cierre-trimestre` como primer paso.
 
-## Mi empresa (rellénalo una vez)
+## Mi empresa
 
-Antes de preguntar, mira si ya los tienes en las instrucciones o ficheros del proyecto, o en tu memoria del usuario. Si están, úsalos sin preguntar. Si no, pregúntalos al empezar y propón guardarlos en tu memoria para no volver a preguntarlos. Quien prefiera, puede escribirlos aquí mismo antes de subir la skill.
+> **SIN RELLENAR.** Mientras ponga esto, antes de nada sigue «Primera vez: configurarla».
 
-- Banco o bancos que usa y formato del extracto (CSV o Excel).
-- Programa de facturación: Holded (con conector), otro, o ninguno.
-- Pasarelas de cobro (Stripe, PayPal, TPV del banco) si las hay.
-- Proveedores habituales y dónde se descargan sus facturas (portal, correo).
+Este bloque es el mismo en las tres skills de contabilidad: `contabilizar-gasto`, `puntear-facturas` y `cierre-trimestre`.
+
+- **Nombre fiscal y NIF**:
+- **Forma** (sociedad o autónomo):
+- **Régimen de IVA** (general, recargo de equivalencia, exento u otro):
+- **Programa de contabilidad y facturación** (Holded con conector, otro o ninguno):
+- **Banco o bancos y formato del extracto** (CSV o Excel):
+- **Pasarelas de cobro** (Stripe, PayPal, TPV del banco), si las hay:
+- **Empleados con nómina, profesionales a los que retengo y alquiler de local**:
+- **Compras o ventas con otros países** (de la UE o de fuera) y si estoy dado de alta en el ROI:
+- **Proveedores habituales**: su cuenta y dónde se descarga su factura (ejemplo: «Iberdrola → 628 Suministros, área de clientes»).
+- **Gastos que mi gestoría trata de forma especial** (ejemplo: vehículo al 50 %):
+- **Gestoría**: nombre y cómo le gusta recibir la documentación.
+
+## Primera vez: configurarla
+
+Solo si «Mi empresa» pone SIN RELLENAR.
+
+- **Si te ha lanzado una tarea programada**, no preguntes ni configures nada: deja el aviso «Falta configurar la skill puntear-facturas: ábrela en un chat y te guiará» y no hagas nada más.
+
+1. **Pregunta todos los datos de «Mi empresa» en un solo mensaje.** Lo que no aplique, «no aplica». Si ya los ha dado antes en esta conversación, no los vuelvas a pedir.
+2. **Enseña el bloque relleno** y pide OK. Corrige lo que te diga.
+3. **Ofrece las tres a la vez**: «Las tres skills de contabilidad comparten estos datos. ¿Te devuelvo también personalizadas las otras dos?». Para eso necesitas las otras dos: descárgalas de `https://github.com/ManuLorenzzo/skills-taller-ia/raw/main/zips/<nombre>.zip` (o de `https://github.com/ManuLorenzzo/skills-taller-ia/raw/main/skills/<nombre>/SKILL.md`). Si no puedes descargarlas, pide al usuario que adjunte esos ZIP.
+4. **Devuelve cada skill personalizada como ZIP descargable**: fichero `<nombre>.zip` con la carpeta `<nombre>/` en la raíz y dentro `SKILL.md`, donde `<nombre>` es el `name` de la skill. El `SKILL.md` es el original palabra por palabra con tres cambios: «Mi empresa» relleno, sin la línea SIN RELLENAR y sin esta sección «Primera vez: configurarla». La cabecera (`name` y `description`) no cambia.
+5. **Explícale en dos líneas cómo cambiarlas**: «En Personalizar > Skills, quita las versiones genéricas y sube estos ZIP. A partir de ahí no te vuelvo a preguntar tus datos.»
+6. Después, sigue con lo que te había pedido usando «Mi empresa».
 
 ## Reglas que no se rompen
 
